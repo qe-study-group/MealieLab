@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "teáskanál",
+        "description": "",
+        "abbreviation": "tk"
+    },
+    "tablespoon": {
+        "name": "evőkanál",
+        "description": "",
+        "abbreviation": "ek"
+    },
+    "cup": {
+        "name": "csésze",
+        "description": "",
+        "abbreviation": "csésze"
+    },
+    "fluid-ounce": {
+        "name": "uncia",
+        "description": "",
+        "abbreviation": "uncia"
+    },
+    "pint": {
+        "name": "pint",
+        "description": "",
+        "abbreviation": "pint"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "quart"
+    },
+    "gallon": {
+        "name": "gallon",
+        "description": "",
+        "abbreviation": "gallon"
+    },
+    "milliliter": {
+        "name": "milliliter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "liter",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "font",
+        "description": "",
+        "abbreviation": "font"
+    },
+    "ounce": {
+        "name": "uncia",
+        "description": "",
+        "abbreviation": "uncia"
+    },
+    "gram": {
+        "name": "gramm",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilógramm",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "miligramm",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "fröccsintés",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "csipetnyi",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "adag",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "fej",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "gerezd",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "konzerv",
+        "description": "",
+        "abbreviation": ""
+    }
+}

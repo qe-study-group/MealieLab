@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Det oppstod en uventet feil"
+    },
+    "recipe": {
+        "unique-name-error": "Oppskriftsnavn må være unike"
+    },
+    "exceptions": {
+        "permission_denied": "Du har ikke rettigheter til å utføre denne handlingen",
+        "no-entry-found": "Den forespurte ressursen ble ikke funnet",
+        "integrity-error": "Feil i databaseintegritet",
+        "username-conflict-error": "Dette brukernavnet er allerede i bruk",
+        "email-conflict-error": "Denne e-postadressen er allerede i bruk"
+    },
+    "notifications": {
+        "generic-created": "{name} ble opprettet",
+        "generic-updated": "{name} ble oppdatert",
+        "generic-created-with-url": "{name} har blitt opprettet, {url}",
+        "generic-updated-with-url": "{name} har blitt oppdatert, {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "{name} har blitt slettet"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "Teelöffel",
+        "description": "",
+        "abbreviation": "TL"
+    },
+    "tablespoon": {
+        "name": "Esslöffel",
+        "description": "",
+        "abbreviation": "EL"
+    },
+    "cup": {
+        "name": "Tasse",
+        "description": "",
+        "abbreviation": "Tasse"
+    },
+    "fluid-ounce": {
+        "name": "Flüssigunze",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "Pint",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "Gallone",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "Milliliter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "Liter",
+        "description": "",
+        "abbreviation": "L"
+    },
+    "pound": {
+        "name": "Pfund",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "Unze",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "Gramm",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "Kilogramm",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "Milligramm",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "Spritzer",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "Prise",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "Portion",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "Kopf",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "Zehe",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "Dose",
+        "description": "",
+        "abbreviation": ""
+    }
+}

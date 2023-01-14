@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "teaspoon",
+        "description": "",
+        "abbreviation": "tsp"
+    },
+    "tablespoon": {
+        "name": "tablespoon",
+        "description": "",
+        "abbreviation": "tbsp"
+    },
+    "cup": {
+        "name": "cup",
+        "description": "",
+        "abbreviation": "cup"
+    },
+    "fluid-ounce": {
+        "name": "fluid ounce",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pint",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "gallon",
+        "description": "",
+        "abbreviation": "γαλ"
+    },
+    "milliliter": {
+        "name": "χιλιοστόλιτρο",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "λίτρο",
+        "description": "",
+        "abbreviation": "λ"
+    },
+    "pound": {
+        "name": "pound",
+        "description": "",
+        "abbreviation": "λβρ"
+    },
+    "ounce": {
+        "name": "ουγγιά",
+        "description": "",
+        "abbreviation": "οζ"
+    },
+    "gram": {
+        "name": "γραμ",
+        "description": "",
+        "abbreviation": "γ"
+    },
+    "kilogram": {
+        "name": "κιλό",
+        "description": "",
+        "abbreviation": "κιλ"
+    },
+    "milligram": {
+        "name": "χιλιοστόγραμμο",
+        "description": "",
+        "abbreviation": "μιλιγκράμ"
+    },
+    "splash": {
+        "name": "splash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "παύλα",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "μερίδα",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "κεφάλι",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "clove",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "can",
+        "description": "",
+        "abbreviation": ""
+    }
+}

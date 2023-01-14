@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "culleradeta/es de cafè",
+        "description": "",
+        "abbreviation": "cc"
+    },
+    "tablespoon": {
+        "name": "cullera/es sopera/es",
+        "description": "",
+        "abbreviation": "cs"
+    },
+    "cup": {
+        "name": "tassa",
+        "description": "",
+        "abbreviation": "tassa"
+    },
+    "fluid-ounce": {
+        "name": "centilitre/s",
+        "description": "",
+        "abbreviation": "cl"
+    },
+    "pint": {
+        "name": "got/s",
+        "description": "",
+        "abbreviation": "got/s"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "galó/ns",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "mil·lilitre/s",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "litre/s",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "lliura/es",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "gotet/s",
+        "description": "",
+        "abbreviation": "gotet/s"
+    },
+    "gram": {
+        "name": "gram/s",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "quilogram/s",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "mil·ligram/s",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "pot/s",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "pessic",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "porció/ns",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "cap/s",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "dent/s",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "llauna/es",
+        "description": "",
+        "abbreviation": ""
+    }
+}

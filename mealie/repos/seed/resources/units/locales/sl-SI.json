@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "čajna žlička",
+        "description": "",
+        "abbreviation": "tsp"
+    },
+    "tablespoon": {
+        "name": "namizna žlica",
+        "description": "",
+        "abbreviation": "tbsp"
+    },
+    "cup": {
+        "name": "skodelica",
+        "description": "",
+        "abbreviation": "skodelica"
+    },
+    "fluid-ounce": {
+        "name": "fluid ounce",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pint",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "galon",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "mililiter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "liter",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "funt",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "unča",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gram",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilogram",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "milligram",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "pljusk",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "potreseno",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "porcija",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "glavo",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "nageljnova žbica",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "konzerva",
+        "description": "",
+        "abbreviation": ""
+    }
+}

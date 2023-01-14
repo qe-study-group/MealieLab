@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "teskje",
+        "description": "",
+        "abbreviation": "ts"
+    },
+    "tablespoon": {
+        "name": "spiseskje",
+        "description": "",
+        "abbreviation": "ss"
+    },
+    "cup": {
+        "name": "kopp",
+        "description": "",
+        "abbreviation": "kopp"
+    },
+    "fluid-ounce": {
+        "name": "us væske unse",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "halvliter",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "gallon",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "milliliter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "liter",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "pund",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "unse",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gram",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilo",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "mg",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "splash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "dash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "servering",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "hode",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "fedd",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "boks",
+        "description": "",
+        "abbreviation": ""
+    }
+}

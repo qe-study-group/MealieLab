@@ -1,0 +1,107 @@
+version: "3.4"
+services:
+  mealie-frontend:
+    container_name: mealie-frontend
+    image: mealie-frontend:dev
+    deploy:
+      resources:
+        limits:
+          memory: 500M
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - mealie-data:/app/data/
+    ports:
+      - 9091:3000
+    environment:
+      - API_URL=http://mealie-api:9000
+
+      # =====================================
+      # Light Mode Config
+      - THEME_LIGHT_PRIMARY=#E58325
+      - THEME_LIGHT_ACCENT=#007A99
+      - THEME_LIGHT_SECONDARY=#973542
+      - THEME_LIGHT_SUCCESS=#43A047
+      - THEME_LIGHT_INFO=#1976D2
+      - THEME_LIGHT_WARNING=#FF6D00
+      - THEME_LIGHT_ERROR=#EF5350
+      # =====================================
+      # Dark Mode Config
+      - THEME_DARK_PRIMARY=#E58325
+      - THEME_DARK_ACCENT=#007A99
+      - THEME_DARK_SECONDARY=#973542
+      - THEME_DARK_SUCCESS=#43A047
+      - THEME_DARK_INFO=#1976D2
+      - THEME_DARK_WARNING=#FF6D00
+      - THEME_DARK_ERROR=#EF5350
+  mealie:
+    container_name: mealie-api
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+    build:
+      context: ./
+      target: production
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - mealie-data:/app/data/
+    ports:
+      - 9092:9000
+    environment:
+      ALLOW_SIGNUP: "false"
+
+      DB_ENGINE: postgres # Optional: 'sqlite', 'postgres'
+      # =====================================
+      # Postgres Config
+      POSTGRES_USER: mealie
+      POSTGRES_PASSWORD: mealie
+      POSTGRES_SERVER: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: mealie
+
+      # =====================================
+      # Web Concurrency
+      # WEB_GUNICORN: true
+      WORKERS_PER_CORE: 0.5
+      MAX_WORKERS: 1
+      WEB_CONCURRENCY: 1
+      # =====================================
+      # Email Configuration
+      # SMTP_HOST=
+      # SMTP_PORT=587
+      # SMTP_FROM_NAME=Mealie
+      # SMTP_AUTH_STRATEGY=TLS # Options: 'TLS', 'SSL', 'NONE'
+      # SMTP_FROM_EMAIL=
+      # SMTP_USER=
+      # SMTP_PASSWORD=
+
+  postgres:
+    container_name: postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: mealie
+      POSTGRES_USER: mealie
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    restart: always
+    depends_on:
+      - postgres
+    ports:
+      - 5050:80
+      ## you can change pgAdmin default username/password with below environment variables
+    environment:
+      PGADMIN_CONFIG_PROXY_X_HOST_COUNT: 1
+      PGADMIN_CONFIG_PROXY_X_PREFIX_COUNT: 1
+      PGADMIN_DEFAULT_EMAIL: admin@mealie.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+
+volumes:
+  mealie-data:
+    driver: local

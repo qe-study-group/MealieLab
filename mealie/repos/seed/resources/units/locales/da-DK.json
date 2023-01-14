@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "teske",
+        "description": "",
+        "abbreviation": "tsk."
+    },
+    "tablespoon": {
+        "name": "spiseske",
+        "description": "",
+        "abbreviation": "spsk."
+    },
+    "cup": {
+        "name": "kop",
+        "description": "",
+        "abbreviation": "kop"
+    },
+    "fluid-ounce": {
+        "name": "flydende ounce",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pint",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "gallon",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "milliliter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "liter",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "pund",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "ounce",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gram",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilogam",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "milligram",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "sprøjt",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "strejf",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "servering",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "hoved",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "fed",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "dåse",
+        "description": "",
+        "abbreviation": ""
+    }
+}

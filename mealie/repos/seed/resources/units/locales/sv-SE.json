@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "tesked",
+        "description": "",
+        "abbreviation": "tsk"
+    },
+    "tablespoon": {
+        "name": "matsked",
+        "description": "",
+        "abbreviation": "msk"
+    },
+    "cup": {
+        "name": "kopp",
+        "description": "",
+        "abbreviation": "kopp"
+    },
+    "fluid-ounce": {
+        "name": "flytande ounce",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pint",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "gallon",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "milliliter",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "liter",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "pund",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "ounce",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gram",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilogram",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "milligram",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "skvätt",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "stänk",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "portion",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "huvud",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "klyfta",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "burk",
+        "description": "",
+        "abbreviation": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Vyskytla sa neočakávaná chyba"
+    },
+    "recipe": {
+        "unique-name-error": "Názov receptu musí byť unikátny"
+    },
+    "exceptions": {
+        "permission_denied": "Nemáte povolenie na vykonanie tejto akcie",
+        "no-entry-found": "404 - Požadovaná stránka nebola nájdená",
+        "integrity-error": "Chyba integrity databázy",
+        "username-conflict-error": "Toto užívateľské meno je už obsadené",
+        "email-conflict-error": "Tento e-mail sa už používa"
+    },
+    "notifications": {
+        "generic-created": "{name} bol vytvorený",
+        "generic-updated": "{name} bol aktualizovaný",
+        "generic-created-with-url": "{name} bol vytvorený, {url}",
+        "generic-updated-with-url": "{name} bol aktualizovaný, {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "{name} bol vymazaný"
+    }
+}

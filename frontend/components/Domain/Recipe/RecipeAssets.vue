@@ -1,0 +1,200 @@
+<template>
+  <div v-if="value.length > 0 || edit">
+    <v-card class="mt-2">
+      <v-card-title class="py-2">
+        {{ $t("asset.assets") }}
+      </v-card-title>
+      <v-divider class="mx-2"></v-divider>
+      <v-list v-if="value.length > 0" :flat="!edit">
+        <v-list-item v-for="(item, i) in value" :key="i">
+          <v-list-item-icon class="ma-auto">
+            <v-tooltip bottom>
+              <template #activator="{ on, attrs }">
+                <v-icon v-bind="attrs" v-on="on">
+                  {{ getIconDefinition(item.icon).icon }}
+                </v-icon>
+              </template>
+              <span>{{ getIconDefinition(item.icon).title }}</span>
+            </v-tooltip>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title class="pl-2">
+              {{ item.name }}
+            </v-list-item-title>
+          </v-list-item-content>
+          <v-list-item-action>
+            <v-btn v-if="!edit" color="primary" icon :href="assetURL(item.fileName)" target="_blank" top>
+              <v-icon> {{ $globals.icons.download }} </v-icon>
+            </v-btn>
+            <div v-else>
+              <v-btn color="error" icon top @click="value.splice(i, 1)">
+                <v-icon>{{ $globals.icons.delete }}</v-icon>
+              </v-btn>
+              <AppButtonCopy color="" :copy-text="assetEmbed(item.fileName)" />
+            </div>
+          </v-list-item-action>
+        </v-list-item>
+      </v-list>
+    </v-card>
+    <div class="d-flex ml-auto mt-2">
+      <v-spacer></v-spacer>
+      <BaseDialog
+        v-model="state.newAssetDialog"
+        :title="$tc('asset.new-asset')"
+        :icon="getIconDefinition(state.newAsset.icon).icon"
+        @submit="addAsset"
+      >
+        <template #activator>
+          <BaseButton v-if="edit" small create @click="state.newAssetDialog = true" />
+        </template>
+        <v-card-text class="pt-4">
+          <v-text-field v-model="state.newAsset.name" dense :label="$t('general.name')"></v-text-field>
+          <div class="d-flex justify-space-between">
+            <v-select
+              v-model="state.newAsset.icon"
+              dense
+              :prepend-icon="getIconDefinition(state.newAsset.icon).icon"
+              :items="iconOptions"
+              item-text="title"
+              item-value="name"
+              class="mr-2"
+            >
+              <template #item="{ item }">
+                <v-list-item-avatar>
+                  <v-icon class="mr-auto">
+                    {{ item.icon }}
+                  </v-icon>
+                </v-list-item-avatar>
+                {{ item.title }}
+              </template>
+            </v-select>
+            <AppButtonUpload :post="false" file-name="file" :text-btn="false" @uploaded="setFileObject" />
+          </div>
+          {{ state.fileObject.name }}
+        </v-card-text>
+      </BaseDialog>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent, reactive, useContext } from "@nuxtjs/composition-api";
+import { useStaticRoutes, useUserApi } from "~/composables/api";
+import { alert } from "~/composables/use-toast";
+import { detectServerBaseUrl } from "~/composables/use-utils";
+import { RecipeAsset } from "~/lib/api/types/recipe";
+
+export default defineComponent({
+  props: {
+    slug: {
+      type: String,
+      required: true,
+    },
+    recipeId: {
+      type: String,
+      required: true,
+    },
+    value: {
+      type: Array as () => RecipeAsset[],
+      required: true,
+    },
+    edit: {
+      type: Boolean,
+      default: true,
+    },
+  },
+  setup(props, context) {
+    const api = useUserApi();
+
+    const state = reactive({
+      newAssetDialog: false,
+      fileObject: {} as File,
+      newAsset: {
+        name: "",
+        icon: "mdi-file",
+      },
+    });
+
+    const { $globals, i18n, req } = useContext();
+
+    const iconOptions = [
+      {
+        name: "mdi-file",
+        title: i18n.t("asset.file"),
+        icon: $globals.icons.file,
+      },
+      {
+        name: "mdi-file-pdf-box",
+        title: i18n.t("asset.pdf"),
+        icon: $globals.icons.filePDF,
+      },
+      {
+        name: "mdi-file-image",
+        title: i18n.t("asset.image"),
+        icon: $globals.icons.fileImage,
+      },
+      {
+        name: "mdi-code-json",
+        title: i18n.t("asset.code"),
+        icon: $globals.icons.codeJson,
+      },
+      {
+        name: "mdi-silverware-fork-knife",
+        title: i18n.t("asset.recipe"),
+        icon: $globals.icons.primary,
+      },
+    ];
+
+    const serverBase = detectServerBaseUrl(req);
+
+    function getIconDefinition(icon: string) {
+      return iconOptions.find((item) => item.name === icon) || iconOptions[0];
+    }
+
+    const { recipeAssetPath } = useStaticRoutes();
+    function assetURL(assetName: string) {
+      return recipeAssetPath(props.recipeId, assetName);
+    }
+
+    function assetEmbed(name: string) {
+      return `<img src="${serverBase}${assetURL(name)}" height="100%" width="100%"> </img>`;
+    }
+
+    function setFileObject(fileObject: File) {
+      state.fileObject = fileObject;
+    }
+
+    function validFields() {
+      return state.newAsset.name.length > 0 && state.fileObject.name.length > 0;
+    }
+
+    async function addAsset() {
+      if (!validFields()) {
+        alert.error(i18n.t("asset.error-submitting-form") as string);
+        return;
+      }
+
+      const { data } = await api.recipes.createAsset(props.slug, {
+        name: state.newAsset.name,
+        icon: state.newAsset.icon,
+        file: state.fileObject,
+        extension: state.fileObject.name.split(".").pop() || "",
+      });
+
+      context.emit("input", [...props.value, data]);
+      state.newAsset = { name: "", icon: "mdi-file" };
+      state.fileObject = {} as File;
+    }
+
+    return {
+      state,
+      addAsset,
+      assetURL,
+      assetEmbed,
+      getIconDefinition,
+      iconOptions,
+      setFileObject,
+    };
+  },
+});
+</script>

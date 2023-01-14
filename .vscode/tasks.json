@@ -1,0 +1,80 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "DEV: Build and Start Docker Compose",
+      "command": "make docker-dev",
+      "type": "shell",
+      "args": [],
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "test"
+    },
+    {
+      "label": "Production: Build and Start Docker Compose",
+      "command": "make docker-prod",
+      "type": "shell",
+      "args": [],
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": "test"
+    },
+    {
+      "label": "Dev: Start Backend",
+      "command": "make backend",
+      "type": "shell",
+      "presentation": {
+        "reveal": "always",
+        "group": "groupA"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Init Database",
+      "command": "poetry run python mealie/db/init_db.py",
+      "type": "shell",
+      "presentation": {
+        "reveal": "always",
+        "group": "groupA"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: Start Frontend",
+      "command": "make frontend",
+      "type": "shell",
+      "presentation": {
+        "reveal": "always",
+        "group": "groupA"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: Start Docs Server",
+      "command": "make docs",
+      "type": "shell",
+      "presentation": {
+        "reveal": "always",
+        "group": "groupA"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run python tests",
+      "command": "make test",
+      "type": "shell",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

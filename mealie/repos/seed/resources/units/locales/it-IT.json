@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "cucchiaino",
+        "description": "",
+        "abbreviation": "cucchiaino"
+    },
+    "tablespoon": {
+        "name": "cucchiaio",
+        "description": "",
+        "abbreviation": "cucch.o"
+    },
+    "cup": {
+        "name": "tazza",
+        "description": "",
+        "abbreviation": "tazza"
+    },
+    "fluid-ounce": {
+        "name": "oncia liquida",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pinta",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quarto di pinta",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "gallone",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "millilitro",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "litro",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "libbra",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "oncia",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "grammo",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "chilogrammo",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "milligrammo",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "splash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "pizzico",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "porzione",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "testa",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "spicchio",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "lattina",
+        "description": "",
+        "abbreviation": ""
+    }
+}

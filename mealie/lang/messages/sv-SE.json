@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Ett oväntat fel har uppstått"
+    },
+    "recipe": {
+        "unique-name-error": "Receptnamn måste vara unika"
+    },
+    "exceptions": {
+        "permission_denied": "Du har inte behörighet att utföra denna åtgärd",
+        "no-entry-found": "Den begärda resursen hittades inte",
+        "integrity-error": "Fel i databasens integritet",
+        "username-conflict-error": "Detta användarnamn är upptaget",
+        "email-conflict-error": "E-postadressen används redan"
+    },
+    "notifications": {
+        "generic-created": "{name} skapades",
+        "generic-updated": "{name} uppdaterades",
+        "generic-created-with-url": "{name} har skapats, {url}",
+        "generic-updated-with-url": "{name} har uppdaterats, {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "{name} har tagits bort"
+    }
+}

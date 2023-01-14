@@ -1,0 +1,1 @@
+NoneFloat = float | None

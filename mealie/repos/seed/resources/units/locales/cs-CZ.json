@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "čajová lžička",
+        "description": "",
+        "abbreviation": "čl"
+    },
+    "tablespoon": {
+        "name": "polévková lžíce",
+        "description": "",
+        "abbreviation": "pl"
+    },
+    "cup": {
+        "name": "šálek",
+        "description": "",
+        "abbreviation": "šálek"
+    },
+    "fluid-ounce": {
+        "name": "dutá unce",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pinta",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "galon",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "mililitr",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "litr",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "libra",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "unce",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gram",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilogram",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "miligram",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "splash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "špetka",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "porce",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "hlava",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "stroužek",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "plechovka",
+        "description": "",
+        "abbreviation": ""
+    }
+}

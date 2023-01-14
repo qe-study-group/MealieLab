@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Se ha producido un error inesperado"
+    },
+    "recipe": {
+        "unique-name-error": "El nombre de la receta debe ser único"
+    },
+    "exceptions": {
+        "permission_denied": "No tiene permiso para realizar esta acción",
+        "no-entry-found": "No se ha encontrado el recurso solicitado",
+        "integrity-error": "Error de integridad de la base de Datos",
+        "username-conflict-error": "Este nombre de usuario ya está en uso",
+        "email-conflict-error": "Este correo electrónico ya está en uso"
+    },
+    "notifications": {
+        "generic-created": "{name} creado/a",
+        "generic-updated": "{name} actualizado/a",
+        "generic-created-with-url": "Se ha creado {name}, {url}",
+        "generic-updated-with-url": "Se ha actualizado {name}, {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "Se ha eliminado {name}"
+    }
+}

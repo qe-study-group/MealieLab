@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Došlo k nečekané chybě"
+    },
+    "recipe": {
+        "unique-name-error": "Názvy receptů musí být jedinečné"
+    },
+    "exceptions": {
+        "permission_denied": "K provedení této akce nemáte oprávnění",
+        "no-entry-found": "Požadovaný zdroj nebyl nalezen",
+        "integrity-error": "Chyba integrity databáze",
+        "username-conflict-error": "Toto uživatelské jméno je již obsazeno",
+        "email-conflict-error": "Tento e-mail je již používán"
+    },
+    "notifications": {
+        "generic-created": "{name} byl vytvořen",
+        "generic-updated": "{name} byl aktualizován",
+        "generic-created-with-url": "{name} byl vytvořen, {url}",
+        "generic-updated-with-url": "{name} byl aktualizován, {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "{name} byl odstraněn"
+    }
+}

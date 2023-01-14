@@ -1,0 +1,23 @@
+{
+    "generic": {
+        "server-error": "Wystąpił nieoczekiwany błąd"
+    },
+    "recipe": {
+        "unique-name-error": "Nazwy przepisów muszą być unikalne"
+    },
+    "exceptions": {
+        "permission_denied": "Nie masz uprawnień do wykonania tej akcji",
+        "no-entry-found": "Wskazany zasób jest niedostępny",
+        "integrity-error": "Błąd integralności bazy danych",
+        "username-conflict-error": "Ta nazwa użytkownika jest już zajęta",
+        "email-conflict-error": "Ten adres email już jest zajęty"
+    },
+    "notifications": {
+        "generic-created": "{name} został utworzony",
+        "generic-updated": "{name} został zaktualizowany",
+        "generic-created-with-url": "{name} został utworzony. {url}",
+        "generic-updated-with-url": "{name} został zaktualizowany. {url}",
+        "generic-duplicated": "{name} has been duplicated",
+        "generic-deleted": "{name} został usunięty"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "ч. ложка",
+        "description": "",
+        "abbreviation": "ч. ложка"
+    },
+    "tablespoon": {
+        "name": "ст. ложка",
+        "description": "",
+        "abbreviation": "ст. ложка"
+    },
+    "cup": {
+        "name": "чашка",
+        "description": "",
+        "abbreviation": "чашка"
+    },
+    "fluid-ounce": {
+        "name": "рідка унція",
+        "description": "",
+        "abbreviation": "р. унц"
+    },
+    "pint": {
+        "name": "пінта",
+        "description": "",
+        "abbreviation": "пт"
+    },
+    "quart": {
+        "name": "кварта",
+        "description": "",
+        "abbreviation": "кв"
+    },
+    "gallon": {
+        "name": "галон",
+        "description": "",
+        "abbreviation": "гл"
+    },
+    "milliliter": {
+        "name": "мілілітр",
+        "description": "",
+        "abbreviation": "мл"
+    },
+    "liter": {
+        "name": "літр",
+        "description": "",
+        "abbreviation": "л"
+    },
+    "pound": {
+        "name": "фунт",
+        "description": "",
+        "abbreviation": "фт"
+    },
+    "ounce": {
+        "name": "унція",
+        "description": "",
+        "abbreviation": "унц"
+    },
+    "gram": {
+        "name": "грам",
+        "description": "",
+        "abbreviation": "г"
+    },
+    "kilogram": {
+        "name": "кілограм",
+        "description": "",
+        "abbreviation": "кг"
+    },
+    "milligram": {
+        "name": "міліграм",
+        "description": "",
+        "abbreviation": "мг"
+    },
+    "splash": {
+        "name": "трохи",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "трохи",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "порція",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "голівка",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "зубчик",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "банка",
+        "description": "",
+        "abbreviation": ""
+    }
+}

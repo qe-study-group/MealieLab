@@ -1,0 +1,109 @@
+site_name: Mealie
+demo_url: https://demo.mealie.io
+site_url: https://hay-kot.github.io/mealie/
+use_directory_urls: true
+theme:
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: mealie
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  custom_dir: docs/overrides
+  features:
+    - content.code.annotate
+    - navigation.top
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+  favicon: assets/img/favicon.png
+  name: material
+  icon:
+    logo: material/silverware-variant
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - pymdownx.tabbed
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - assets/stylesheets/custom.css
+extra_javascript:
+  - assets/js/extra.js
+repo_url: https://github.com/hay-kot/mealie/
+repo_name: hay-kot/mealie
+edit_uri: edit/mealie-next/docs/docs/
+
+nav:
+  - Home: "index.md"
+  - Getting Started:
+      - Introduction: "documentation/getting-started/introduction.md"
+      - Features: "documentation/getting-started/features.md"
+      - Updating: "documentation/getting-started/updating.md"
+      - Version 1 Migration: "documentation/getting-started/migrating-to-mealie-v1.md"
+      - FAQ: "documentation/getting-started/faq.md"
+      - API: "documentation/getting-started/api-usage.md"
+      - Road Map: "documentation/getting-started/roadmap.md"
+
+      - Installation:
+          - Installation Checklist: "documentation/getting-started/installation/installation-checklist.md"
+          - SQLite (Recommended): "documentation/getting-started/installation/sqlite.md"
+          - PostgreSQL: "documentation/getting-started/installation/postgres.md"
+          - Frontend Configuration: "documentation/getting-started/installation/frontend-config.md"
+          - Backend Configuration: "documentation/getting-started/installation/backend-config.md"
+      - Usage:
+          - Backup and Restoring: "documentation/getting-started/usage/backups-and-restoring.md"
+
+      - Community Guides:
+          - iOS Shortcuts: "documentation/community-guide/ios.md"
+          - Reverse Proxy (SWAG): "documentation/community-guide/swag.md"
+          - Home Assistant: "documentation/community-guide/home-assistant.md"
+          - Bulk Url Import: "documentation/community-guide/bulk-url-import.md"
+
+  - API Reference: "api/redoc.md"
+
+  - Contributors Guide:
+      - Non-Code: "contributors/non-coders.md"
+      - Translating: "contributors/translating.md"
+      - Developers Guide:
+          - Code Contributions: "contributors/developers-guide/code-contributions.md"
+          - Dev Getting Started: "contributors/developers-guide/starting-dev-server.md"
+      - Guides:
+          - Improving Ingredient Parser: "contributors/guides/ingredient-parser.md"
+
+  - Change Log:
+      - v1.0.0beta-4: "changelog/v1.0.0beta-4.md"
+      - v1.0.0beta-3: "changelog/v1.0.0beta-3.md"
+      - v1.0.0beta-2: "changelog/v1.0.0beta-2.md"
+      - v1.0.0 Beta: "changelog/v1.0.0.md"
+      - v0.5.2 Misc Updates: "changelog/v0.5.2.md"
+      - v0.5.1 Bug Fixes: "changelog/v0.5.1.md"
+      - v0.5.0 General Upgrades: "changelog/v0.5.0.md"
+      - v0.4.3 Hot Fix: "changelog/v0.4.3.md"
+      - v0.4.2 Backend/Migrations: "changelog/v0.4.2.md"
+      - v0.4.1 Frontend/UI: "changelog/v0.4.1.md"
+      - v0.4.0 Authentication: "changelog/v0.4.0.md"
+      - v0.3.0 Improvements: "changelog/v0.3.0.md"
+      - v0.2.0 Now With Tests!: "changelog/v0.2.0.md"
+      - v0.1.0 Beta: "changelog/v0.1.0.md"

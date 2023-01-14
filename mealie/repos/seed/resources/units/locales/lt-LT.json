@@ -1,0 +1,102 @@
+{
+    "teaspoon": {
+        "name": "arbatinis šaukštelis",
+        "description": "",
+        "abbreviation": "a.š."
+    },
+    "tablespoon": {
+        "name": "valgomasis šaukštas",
+        "description": "",
+        "abbreviation": "v.š."
+    },
+    "cup": {
+        "name": "cup",
+        "description": "",
+        "abbreviation": "cup"
+    },
+    "fluid-ounce": {
+        "name": "skysčio uncija",
+        "description": "",
+        "abbreviation": "fl oz"
+    },
+    "pint": {
+        "name": "pinta",
+        "description": "",
+        "abbreviation": "pt"
+    },
+    "quart": {
+        "name": "quart",
+        "description": "",
+        "abbreviation": "qt"
+    },
+    "gallon": {
+        "name": "galonas",
+        "description": "",
+        "abbreviation": "gal"
+    },
+    "milliliter": {
+        "name": "mililitras",
+        "description": "",
+        "abbreviation": "ml"
+    },
+    "liter": {
+        "name": "litras",
+        "description": "",
+        "abbreviation": "l"
+    },
+    "pound": {
+        "name": "svaras",
+        "description": "",
+        "abbreviation": "lb"
+    },
+    "ounce": {
+        "name": "uncija",
+        "description": "",
+        "abbreviation": "oz"
+    },
+    "gram": {
+        "name": "gramas",
+        "description": "",
+        "abbreviation": "g"
+    },
+    "kilogram": {
+        "name": "kilogramas",
+        "description": "",
+        "abbreviation": "kg"
+    },
+    "milligram": {
+        "name": "miligramas",
+        "description": "",
+        "abbreviation": "mg"
+    },
+    "splash": {
+        "name": "šlakelis",
+        "description": "",
+        "abbreviation": ""
+    },
+    "dash": {
+        "name": "dash",
+        "description": "",
+        "abbreviation": ""
+    },
+    "serving": {
+        "name": "porcijos",
+        "description": "",
+        "abbreviation": ""
+    },
+    "head": {
+        "name": "galva",
+        "description": "",
+        "abbreviation": ""
+    },
+    "clove": {
+        "name": "skiltelė",
+        "description": "",
+        "abbreviation": ""
+    },
+    "can": {
+        "name": "skardinė",
+        "description": "",
+        "abbreviation": ""
+    }
+}
