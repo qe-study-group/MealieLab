@@ -31,3 +31,16 @@ By improving your technical skills you will be able to:
 
 We will be using the open source Mealie application in this repo to practice our skills.
 
+## Start application
+
+```
+docker compose up
+```
+
+## Restore DB
+
+Open another terminal
+
+```
+docker exec postgres sh -c "./db_dump/restore_db.sh"
+```
