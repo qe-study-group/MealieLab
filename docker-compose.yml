@@ -46,6 +46,8 @@ services:
       context: ./
       target: production
       dockerfile: Dockerfile
+    depends_on:
+      - postgres
     restart: always
     volumes:
       - mealie-data:/app/data/
@@ -86,6 +88,8 @@ services:
     environment:
       POSTGRES_PASSWORD: mealie
       POSTGRES_USER: mealie
+    volumes:
+      - ./db_dump:/db_dump
 
   pgadmin:
     container_name: pgadmin
