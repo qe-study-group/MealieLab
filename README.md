@@ -1,4 +1,28 @@
-# Becoming a technical tester
+## Mealie -- application under test
+
+We will be using the open source Mealie application in this repo to practice testing with deep technical skills.
+
+## Starting
+
+* create a 4-core Codespace
+
+[Detailed instructions can be found here](https://docs.google.com/document/d/1arfJBQAhYe02ek36FT0OApo2p6GFg9P1NPmiWTeaJEs/edit)
+
+### Start application
+
+```
+./tools/restart.sh
+```
+
+## Restore DB
+
+Open another terminal
+
+```
+./tools/reload_db.sh
+```
+
+# On Becoming a technical tester
 
 As a tester, you span two worlds -- the world of business requirements and the world of software engineering. 
 
@@ -27,20 +51,4 @@ By improving your technical skills you will be able to:
 * pgAdmin
 * GitHub Actions (CI/CD)
 
-## Lab Work
 
-We will be using the open source Mealie application in this repo to practice our skills.
-
-## Start application
-
-```
-docker compose up
-```
-
-## Restore DB
-
-Open another terminal
-
-```
-docker exec postgres sh -c "./db_dump/restore_db.sh"
-```
