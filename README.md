@@ -22,7 +22,7 @@ Open another terminal
 ./tools/reload_db.sh
 ```
 
-Login: changeme@example.com / MyPassword
+Login: changeme@email.com / MyPassword
 
 # On Becoming a technical tester
 
@@ -31,9 +31,9 @@ As a tester, you span two worlds -- the world of business requirements and the w
 By improving your technical skills you will be able to:
 
 * Add value by finding bugs that are not easily found by just testing via the user interface.
-* Provide developers with additional information that will help them debug faster
-* Enjoy your work more due to increased understanding of all layers of the system
-* Build rapport with developers by sharing a common understanding and technical language
+* Provide developers with additional information that will help them debug faster.
+* Enjoy your work more due to increased understanding of all layers of the system.
+* Build rapport with developers by sharing a common understanding and technical language.
 
 ## Technical Skills Covered
 
