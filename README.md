@@ -22,6 +22,8 @@ Open another terminal
 ./tools/reload_db.sh
 ```
 
+Login: changeme@example.com / MyPassword
+
 # On Becoming a technical tester
 
 As a tester, you span two worlds -- the world of business requirements and the world of software engineering. 
