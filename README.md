@@ -1,7 +1,6 @@
-## Mealie -- application under test
+## Mealie Lab
 
-We will be using the open source Mealie application in this repo to practice testing with deep technical skills.
-
+We will be using the open source Mealie application in this repo to practice Docker, REST API, and SQL skills.
 ## Starting
 
 * create a 4-core Codespace
@@ -34,7 +33,11 @@ Open another terminal
 ./tools/reload_db.sh
 ```
 
-Login: changeme@email.com / MyPassword
+## Login into UI
+
+[Ports Tab] Open port 9091 in the browser/
+* Username: changeme@email.com
+* Password: MyPassword
 
 # On Becoming a technical tester
 
