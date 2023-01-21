@@ -11,10 +11,22 @@ We will be using the open source Mealie application in this repo to practice tes
 ### Start application
 
 ```
+./tools/start.sh
+```
+
+### Ports
+
+* Web UI: port 9091
+* pgAdmin: port 5050
+
+### Re-start application
+
+```
 ./tools/restart.sh
 ```
 
-## Restore DB
+
+## Reload DB
 
 Open another terminal
 
