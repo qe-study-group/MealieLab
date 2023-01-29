@@ -1,6 +1,6 @@
 ## Mealie Lab
 
-We will be using the open source Mealie application in this repo to practice Docker, REST API, and SQL skills.
+We will be using the open source Mealie application in this repo to practice Docker, REST API, SQL, and test automation skills.
 ## Starting
 
 * create a 4-core Codespace
