@@ -56,7 +56,7 @@ By improving your technical skills you will be able to:
 * Containers (Docker)
 * REST API
 * SQL
-* CD/CD
+* CI/CD
 
 ## Tools
 
