@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies { 
+  testCompile("io.rest-assured:rest-assured:5.3.0")
+}
