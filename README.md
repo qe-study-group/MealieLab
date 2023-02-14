@@ -20,6 +20,8 @@ We will be using the open source Mealie application in this repo to practice Doc
 
 ### Re-start application
 
+*Always do a 'git pull' after restarting Codespace to get the latest versions of all files!* 
+
 ```
 ./tools/restart.sh
 ```
